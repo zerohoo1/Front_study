@@ -1,0 +1,18 @@
+
+
+div{
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    /* border: Npx *solid* color 솔리드 써야 선이 생김 */
+    border: 10px solid black; 
+    background: greenyellow;
+}
+
+.border-box{
+    box-sizing: border-box;
+    /* box-sizing: border-box; 를 넣게 되면 위 div 설정에 넣었던 padding과 border설정에서 추가된 길이들이
+    추가되지 않게 결과물이 나옴. 그래서 크기가 작아보임. */
+
+}
+

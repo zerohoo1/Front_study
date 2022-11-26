@@ -1,0 +1,40 @@
+
+
+
+.login-wrap {
+    width: 300px;
+    text-align:center;
+    margin:100px auto;
+
+
+}
+
+.login-logo {
+    color:limegreen;
+
+
+}
+
+.login-input, .login-button {
+    /* ,을 찍으면 한번에 설정할 수 있다. */
+    width: 100%;
+    margin: 10px 0px;
+    /*세로축 가로축 (하나만 쓰면 요소의 밖의 4방향 전체여백 */
+    padding: 5px;
+    /* margin은 서로의 거리를 벌리는것 
+    padding: Npx;
+    padding은 자신의 안쪽에 여백을줌, 살찌우는 느낌  */
+    box-sizing: border-box;
+
+}
+
+
+
+
+.login-button {
+    background-color: limegreen;
+    border: 1px solid limegreen;
+    color: white;
+    
+
+}

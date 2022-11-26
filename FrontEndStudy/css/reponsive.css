@@ -1,0 +1,11 @@
+.title{
+    font-size: 40px;
+    
+}
+
+@media(max-width:500px){
+    .title{
+        font-size:20px;
+    }
+}
+/*웹 페이지가 가로 500px이하일때 폰트 사이즈가 20px로 바뀜*/

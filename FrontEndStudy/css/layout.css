@@ -1,0 +1,53 @@
+header, section, article, aside, nav, footer{
+    background-color: beige;
+    display:block;/*세로로 떨어짐. inline은 가로로 감*/
+    margin:3px;
+}
+
+
+
+header{
+    height: 100px;
+    /*width:100%; 가로값 안줘도 위에 블록값 줘서 자동으로 채워짐*/
+
+}
+
+nav{
+    background-color: yellow;
+    width: 80%;
+    margin:0px /*상하*/auto;/*좌우*/
+
+}
+
+div{
+    display:flex;/*가로로 가게 만듬.*/
+    height: 700px;
+}
+
+section{
+    width: 80%;
+    
+    
+
+}
+
+article{
+    background-color: aliceblue;
+    width:50%;
+    /* margin:0px auto; */
+    /*margin:상하 좌우;*/
+
+}
+
+aside{
+    width:20%;
+    
+
+}
+
+footer{
+    height: 90px;
+    
+    
+
+}

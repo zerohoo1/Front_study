@@ -1,0 +1,62 @@
+.container {
+    background-color: rgb(55, 129, 194);
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row-reverse; */
+    /* flex-direction:column-reverse; */
+
+}
+
+
+.item{
+    width: 50px;
+    height: 50px;
+}
+
+
+.item1{
+ background-color: aquamarine;
+}
+.item2{
+ background-color: rgb(25, 219, 57);
+}
+.item3{
+ background-color: rgb(172, 108, 48);
+}
+.item4{
+ background-color: rgb(41, 38, 211);
+}
+.item5{
+ background-color: rgb(163, 37, 146);
+}
+.item6{
+ background-color: rgb(127, 187, 255);
+}
+.item7{
+ background-color: rgb(246, 255, 127);
+}
+.item8{
+ background-color: rgb(146, 127, 255);
+}
+.item9{
+ background-color: rgb(59, 114, 177);
+}
+.item10{
+ background-color: rgb(69, 53, 156);
+}
+.item11{
+ background-color: rgb(127, 214, 255);
+}
+.item12{
+ background-color: rgb(255, 127, 127);
+}
+.item13{
+ background-color: rgb(255, 127, 127);
+}
+.item14{
+ background-color: rgb(11, 77, 55);
+}
+.item15{
+ background-color: rgb(143, 180, 57);
+}

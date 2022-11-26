@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;/*패딩같은거 하면 수치가 늘어나는데
+    그거 안늘어나게 하는 설정*/
+    list-style: none;
+    
+}
+
+
+header, nav, section, article, aside, footer{
+    background-color: blanchedalmond;
+    display: block;/*블록레벨 태그는 자동으로 옆을 채움*/
+    margin:3px;
+}
+
+header{
+    background-color: red;
+    height: 100px;
+}
+
+nav{
+    background: yellow;
+    width:80%;
+    margin:0 auto;/*가운데로 오게 하는 설정*/
+    height: 100px;
+    padding-top: 40px;/*위에 보더박스 설정해놔서 안쪽으로 커짐*/
+    
+}
+#topMenu{
+    
+    background-color: rgb(125, 245, 199);
+    display:flex;/*가로로 가게 만드는거*/
+    list-style: none; /*기호 없에는 거, 리스트 스타일 설정하는거*/
+}
+#topMenu >li{
+    position:relative;
+    background-color: rgb(247, 170, 134);
+    margin:0 auto;/*가운데로 오게 하는 설정*/
+    width:70px;
+    
+}
+#topMenu>li>ul{
+    
+    position:absolute;
+    display:none;/*사라지게만듬*/
+}
+#topMenu>li:hover>ul{
+    display:block;
+
+}
+#topMenu>li>ul>li:hover{
+    color: blueviolet;
+}
+#topMenu>li>ul>li{
+    width: 70px;
+    background-color: blue;
+}
+
+div{
+    display: flex;
+    height: 700px;
+}
+
+section{
+    width:80%;
+}
+
+article{
+    background-color: aliceblue;
+    width: 50%;
+    
+}
+
+aside{
+    width:20%;
+}
+
+footer{
+    height: 70px;
+}
